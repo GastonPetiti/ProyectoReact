@@ -1,10 +1,30 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+.NavBar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(4, 110, 110);
+  color: #fff;
+  width: 100vw;
+}
+button{
+  margin: 1rem;
+}
+.Enlaces{
+  display: flex;
+  align-items: center;
+  width: 10rem;
+}
+.LogoCarrito{
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+}
+.Logo{
+  width: 300px;
+  height: auto;
 }
 
 @media (prefers-reduced-motion: no-preference) {

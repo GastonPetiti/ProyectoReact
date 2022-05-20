@@ -5,9 +5,9 @@ const NavBar = () =>{
     return(
         <nav className='NavBar'>
         <div className='Enlaces'>
-        <button>Inicio</button>
-        <button>Productos</button>
-        <button>Contacto</button>
+        <a href="#">Inicio</a>
+        <a href="#">Productos</a>
+        <a href="#">Contacto</a>
         </div>
         <CartWidget/>
       </nav>

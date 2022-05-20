@@ -13,6 +13,11 @@
     display: flex;
     
 }
-button{
+a{
     margin: 1rem;
+    text-decoration: none;
+    color: #fff;
+}
+.NavBar{
+    justify-content: space-between;
 }

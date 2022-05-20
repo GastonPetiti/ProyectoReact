@@ -6,3 +6,34 @@
 body{
   background-color: coral;
 }
+.Count{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width:10rem;
+  background-color: rgb(236, 183, 163);
+  flex-wrap: wrap;
+}
+button{
+  display: flex;
+  height: auto;
+  width: 2em;
+}
+.containerBtn{
+  display: flex;
+  flex-direction: row;
+}
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.btnQuantity{
+  padding: 3px;
+}
+.btnAdd{
+  width: 5rem;
+  align-items:;
+}

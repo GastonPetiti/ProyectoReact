@@ -5,7 +5,7 @@ const Item =({id,name,price,img,stock})=>{
         <div className="card">
             <h2>{name}</h2>
             <p>{price}</p>
-            <div containerBtn>
+            <div className="containerBtn">
             <ItemCount stock={stock}/>
             </div>
         </div>

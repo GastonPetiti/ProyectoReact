@@ -2,7 +2,7 @@ import './ItemListContainer.css';
 import ItemList from '../ItemList/ItemList';
 import { useState,useEffect } from 'react';
 import { getProducts } from '../../asyncmock';
-/*import Cards from '../Cards/Cards';*/
+
 
 const ItemListContainer =(props) =>{
 

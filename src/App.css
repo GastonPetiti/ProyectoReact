@@ -1,35 +1,60 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 body{
-  background-color: coral;
+  background-color: rgb(0, 0, 0);
 }
 .Count{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   height: auto;
-  width:10rem;
-  background-color: rgb(236, 183, 163);
+  width:16rem;
   flex-wrap: wrap;
+  padding: 0.6em;
 }
-button{
-  display: flex;
-  height: auto;
-  width: 2em;
-}
-
 .card{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  border-radius: 10px;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: rgb(109, 109, 109);
+  width: 18rem;
+  
+}
+button{
+  width: 3em;
+  margin: 0.4rem;
+  background-color: darkcyan;
+  border: none;
+  border-radius: 5px;
+}
+.countQuantity{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .btnQuantity{
   padding: 3px;
 }
 .btnAdd{
-  width: 5rem;
+  width: 10rem;
+  height: 2rem;
+}
+.containerBtn{
+  display: flex;
+  flex-direction: column;
+}
+.imgContainer{
+  width: 20vw;
+}
+img{
+  border-radius: 5px;
+  width: 100%;
+  height: auto;
+}
+.listContainer{
+  width: 80vw;
 }

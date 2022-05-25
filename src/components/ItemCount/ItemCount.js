@@ -1,18 +1,18 @@
+import React from 'react'
 import {useState} from 'react'
 
 
-
-const ItemCount = () =>{
+const ItemCount = ({stock}) =>{
 
     const[count,setCount] = useState(0)
 
     const decrement = () =>{
-        if(count > 0){
+        if(count > 1){
         setCount((count) =>count -1)
         }
     }
     const increment =()=>{
-        if (count < 10){
+        if (count < stock){
             setCount(count + 1)
         }
     }
@@ -21,10 +21,14 @@ const ItemCount = () =>{
     }
     return(
         <div className='Count'>
-            <button onClick={decrement} className="btnQuantity"> - </button>
-            <p>{count}</p>
-            <button onClick={increment} className="btnQuantity"> + </button>
-            <button onClick={addToCart} className="btnAdd">Agregar al carrito</button>
+            <div className='countQuantity'>
+                <button onClick={decrement} className="btnQuantity"> - </button>
+                <p>{count}</p>
+                <button onClick={increment} className="btnQuantity"> + </button>
+            </div>
+            <div>
+                <button onClick={addToCart} className="btnAdd">Agregar al carrito</button>
+            </div>
         </div>
     )
 }

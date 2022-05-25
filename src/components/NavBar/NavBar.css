@@ -3,21 +3,22 @@
     margin: 0%;
     padding: 0%;
 }
+body{
+    display: flex;
+    justify-content: center;
+}
 .NavBar{
     display: flex;
-    justify-content:space-between;
+    justify-content:space-around;
     align-items: center;
     background-color: darkcyan;
+    margin: 1rem;
+    width: 80vw;
+    height: auto;
 }
-.Enlaces{
-    display: flex;
-    
-}
+
 a{
     margin: 1rem;
     text-decoration: none;
     color: #fff;
-}
-.NavBar{
-    justify-content: space-between;
 }

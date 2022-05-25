@@ -9,6 +9,6 @@ export const getProducts = () =>{
     return new Promise ((prendas)=> {
         setTimeout(()=>{
             prendas(productos)
-        },2000)
+        },)
     })
 }

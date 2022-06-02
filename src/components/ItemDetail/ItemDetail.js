@@ -1,9 +1,12 @@
+
 const ItemDetail = ({name,description}) =>{
+
+    console.log(name,description)
 
     return (
         <div className="itemDetail">
-            <h2>Detalle</h2>
-            <h3>{name}</h3>
+            <h1>Detalle</h1>
+            <h2>{name}</h2>
             <p>{description}</p>
         </div>
     )

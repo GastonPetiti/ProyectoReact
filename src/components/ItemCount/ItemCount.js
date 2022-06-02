@@ -4,7 +4,7 @@ import {useState} from 'react'
 
 const ItemCount = ({stock}) =>{
 
-    const[count,setCount] = useState(0)
+    const[count,setCount] = useState(1)
 
     const decrement = () =>{
         if(count > 1){

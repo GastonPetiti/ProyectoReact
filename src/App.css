@@ -2,6 +2,13 @@
 body{
   background-color: rgb(0, 0, 0);
 }
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 90vw;
+}
 .Count{
   display: flex;
   justify-content: center;
@@ -61,4 +68,13 @@ img{
 }
 .listContainer{
   width: 80vw;
+  text-align: center;
+}
+.itemDetailContainer{
+  background-color: rgb(109, 109, 109);
+  text-align: center;
+  width: 80vw;
+  height: auto;
+  padding: 1rem;
+  color: aliceblue;
 }

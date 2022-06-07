@@ -72,9 +72,26 @@ img{
 }
 .itemDetailContainer{
   background-color: rgb(109, 109, 109);
+  display: flex;
   text-align: center;
   width: 80vw;
   height: auto;
   padding: 1rem;
   color: aliceblue;
+}
+.itemDetail{
+  display: flex;
+
+}
+.imgDetailContainer{
+  width: 30vw;
+  height: auto;
+  margin: 1rem;
+}
+.descriptionContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
 }

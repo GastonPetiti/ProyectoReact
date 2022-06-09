@@ -7,7 +7,7 @@ const NavBar = () =>{
         <nav className='NavBar'>
           <div>
             <NavLink to ='/'>
-              Logo/Nombre
+              FakE-commerce
             </NavLink>
           </div>
         <div className='Enlaces'>
@@ -17,7 +17,7 @@ const NavBar = () =>{
         <NavLink to='/category/pantalon'>Pantalon</NavLink>
         <NavLink to='/category/medias'>Medias</NavLink>
         </div>
-        <CartWidget/>
+        <NavLink to='/cart'><CartWidget/> </NavLink>
       </nav>
     )
 }

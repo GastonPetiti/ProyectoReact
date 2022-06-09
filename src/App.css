@@ -30,6 +30,13 @@ body{
   background-color: rgb(109, 109, 109);
   width: 18rem;
 }
+.carrito{
+  background-color: cornsilk;
+  width: 80vw;
+  height: auto;
+  align-items: center;
+  text-align: center;
+}
 .card2{
   display: flex;
   flex-wrap: wrap;
